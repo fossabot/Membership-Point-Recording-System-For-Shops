@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	background: linear-gradient(
+			 145deg,
+			 
+			 #00bcd4 0,
+			 #ffffff 100%
+				
+			 );
+
+			background-size: 100%;
+			background-repeat:repeat; 
+			background-attachment:fixed;
+			font-family: Arial, sans-serif;
+	
+}
+.HeadDiv{
+	
+	height: 150px;
+	width: auto;
+
+	
+}
+
+.CoverDiv{
+
+	height: 450px;
+	width: 450px;
+	text-align:center;
+	margin:0 auto;
+	border: 3px ridge rgba(176,204,243,0.8);
+	z-index:1;
+}
+
+
+
+.CoverDiv .SelectionDiv{
+	height: 100%;
+	width:100%;
+	background: linear-gradient(
+			 145deg,
+			 #0E4174 50%,
+			 #177ABB 0,
+			 #177ABB 88%,
+			 white 0
+				
+			 );
+}
+
+.CoverDiv .SelectionDiv ::before{
+	display: inline-block;
+height: 100%;
+  vertical-align: middle;
+	content: '';
+}
+
+
+button {
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%); /* W3C */
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  border-bottom: 4px solid #2b8bc6;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+
+
+}
+button:active {
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+  top: 1px;
+}
+
+button:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 37.4px solid #187dbc;
+  border-bottom: 37.4px solid #187dbc;
+  border-left: 40px solid transparent;
+  border-right: 40px solid #187dbc;
+  position: absolute;
+  opacity: 0.6; 
+  right: 0;
+  top: 0;
+  border-radius: 0 5px 5px 0;  
+}
+
+.CoverDiv .SelectionDiv .OperationDiv{
+	width: 100%;
+	height: 33.3%;
+
+	display:table;
+	
+	
+}
+
+
+
+
+
+.CoverDiv .SelectionDiv .ReportDiv{
+	width: 100%;
+	height: 33.3%;
+
+	
+}
+
+.CoverDiv .SelectionDiv .AdminCenterDiv{
+	width: 100%;
+	height: 33.3%;
+
+
+
+}
+
+.CoverDiv .SelectionDiv .OperationDiv .OperationBtn{
+	width: 250px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	height: 50%;
+	vertical-align: middle; 
+}
+
+
+
+.CoverDiv .SelectionDiv .ReportDiv .ReportBtn{
+	width: 250px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	height: 50%;
+	vertical-align: middle; 
+}
+
+.CoverDiv .SelectionDiv .AdminCenterDiv .AdminCenterBtn{
+	width: 250px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	height: 50%;
+	vertical-align: middle; 
+}
+
+@media screen and (max-width:500px){
+	.CoverDiv{
+
+	height: 450px;
+	width: 80%;
+	text-align:center;
+	margin:0 auto;
+	border: 5px  ridge;
+	z-index:1;
+}
+	
+	.CoverDiv .SelectionDiv .OperationDiv .OperationBtn{
+	width: 60%;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 100%;
+	height: 50%;
+	vertical-align: middle; 
+}
+
+
+
+.CoverDiv .SelectionDiv .ReportDiv .ReportBtn{
+	width: 60%;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 100%;
+	height: 50%;
+	vertical-align: middle; 
+}
+
+.CoverDiv .SelectionDiv .AdminCenterDiv .AdminCenterBtn{
+	width: 60%;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 100%;
+	height: 50%;
+	vertical-align: middle; 
+}
+	
+	
+}
+
+

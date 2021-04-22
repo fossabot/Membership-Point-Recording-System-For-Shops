@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	background: linear-gradient(
+			 145deg,
+			 #242424 20%,
+			 #feb1a1 0%,
+			 #feb1a1 25%,
+			 #ef458c 0%,
+			 #ef458c 35%,
+			 #fcd5e8 0%,
+             #fcd5e8 40%,
+             #fec1c6 0%,
+             #fec1c6 44%,
+             #fcd5e8 0%,
+             #fcd5e8 60%,
+             #fcb393 0%,
+             #fcb393 75%,
+			 #ffffff 0%
+			 );
+            
+			background-size: 100%;
+			background-repeat:repeat; 
+			background-attachment:fixed;
+			font-family: Arial, sans-serif;
+	
+}
+
+body::after{
+	
+	content: "";
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background: inherit;
+    filter: blur(0.5px);
+    z-index: -1;
+	
+}
+.HeadDiv{
+	height: 150px;
+	width: auto;
+
+}
+
+
+.OperationDiv{
+	text-align:left;
+	width:550px;
+	height:350px;  
+	margin:0 auto;
+	border: 4px  ridge #fde4dd;
+	background: hsla(0,0%,100%,1.00);
+		
+}
+.right{
+	text-align:right;
+}
+
+.bottr{
+	border-bottom: 4px  ridge #fde4dd;
+}
+
+.OperationTable{
+	border-collapse: collapse; 
+	width:100%;
+	height: 100%;
+	background:#fde4dd;
+}
+
+.OperationForm{
+	width:100%;
+	height: 100%;
+}
+
+.label, .OperationInput, .Buyradio, .RedeemPointradio, .RedeemRMradio{
+	margin-left: 10px;
+	
+}
+
+
+.submitbtn{
+	width: 60px;
+	height: 30px;
+	margin-left: 150px;
+	border-radius: 20px;
+	outline:none;
+	
+}
+
+.OperationInput{
+	margin-right: 10%;
+	width: 50%	
+	
+}
+
+@media screen and (max-width:500px){
+	
+	.OperationDiv{
+	width:97%;
+	}
+	
+	
+	.Buyradio, .RedeemPointradio, .RedeemRMradio{
+		width: 20%;
+		font-size: 100%;
+		
+		
+	}
+	
+	.OperationTable{
+		
+		font-size: 100%;
+		
+	}
+
+	
+	
+	
+}
+
+
+

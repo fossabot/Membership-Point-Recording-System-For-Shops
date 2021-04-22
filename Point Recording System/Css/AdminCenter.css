@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: linear-gradient(
+			 205deg,
+			 
+			 #00BCD4 46%,
+			 #FFEB3B 0,
+			 #FFEB3B 100%,
+			 #ffffff 0
+				
+			 );
+
+			background-size: 100%;
+			background-repeat:repeat; 
+			background-attachment:fixed;
+			font-family: Arial, sans-serif;
+	
+}
+.HeadDiv{
+	
+	height: 150px;
+	width: auto;
+
+	
+}
+
+.CoverDiv{
+
+	height: 350px;
+	width: 450px;
+	text-align:center;
+	margin:0 auto;
+	border: 5px  ridge;
+	z-index:1;
+}
+
+
+
+.CoverDiv .SelectionDiv{
+	height: 100%;
+	width:100%;
+    background: linear-gradient(
+			 145deg,
+			 
+			 #00BCD4 46%,
+			 #FFEB3B 0,
+			 #FFEB3B 100%,
+			 #ffffff 0
+				
+			 );
+
+			background-size: 100%;
+			background-repeat:repeat; 
+			background-attachment:fixed;
+			font-family: Arial, sans-serif;
+}
+
+.CoverDiv .SelectionDiv ::before{
+	display: inline-block;
+height: 100%;
+  vertical-align: middle;
+	content: '';
+}
+
+.CoverDiv .SelectionDiv .AddMemberDiv{
+	width: 100%;
+	height: 50%;
+	
+	display:table;
+	
+	
+}
+
+
+
+
+
+.CoverDiv .SelectionDiv .AddStaffDiv{
+	width: 100%;
+	height: 50%;
+	
+	
+}
+
+
+.AddMemberbtn {
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(to bottom, #ff9800 0%,#ffeb3b 100%); /* W3C */
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  border-bottom: 4px solid #ffeb3b;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+
+
+}
+.AddMemberbtn:active {
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+  top: 1px;
+}
+
+.AddMemberbtn:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 43.6px solid #ff6122;
+  border-bottom: 43.6px solid #ff6122;
+  border-left: 40px solid transparent;
+  border-right: 40px solid #ff6122;
+  position: absolute;
+  opacity: 0.6; 
+  right: 0;
+  top: 0;
+  border-radius: 0 5px 5px 0;  
+}
+
+.AddStaffBtn {
+  width: 130px;
+  height: 40px;
+  background: linear-gradient(to bottom,  #187dbc 0%,#2b8bc6 100%); /* W3C */
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  border-bottom: 4px solid #2b8bc6;;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  font-size: 15px;
+  text-align: left;
+  text-indent: 5px;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  cursor: pointer;
+
+
+}
+.AddStaffBtn:active {
+  box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+  top: 1px;
+}
+
+.AddStaffBtn:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 43.6px solid #3F51B5;
+  border-bottom: 43.6px solid #3F51B5;
+  border-left: 40px solid transparent;
+  border-right: 40px solid #3F51B5;
+  position: absolute;
+  opacity: 0.6; 
+  right: 0;
+  top: 0;
+  border-radius: 0 5px 5px 0;  
+}
+
+
+
+.AddMemberbtn{
+	width: 250px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	height: 50%;
+	vertical-align: middle; 
+}
+
+
+
+.AddStaffBtn{
+	width: 250px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	height: 50%;
+	vertical-align: middle; 
+}
+
+@media screen and (max-width:500px){
+	
+	.CoverDiv{
+		width:80%;
+		font-size: 100%;
+	}
+	.AddMemberbtn, .AddStaffBtn{
+		width:60%;
+		
+	}
+	
+	
+}
+
