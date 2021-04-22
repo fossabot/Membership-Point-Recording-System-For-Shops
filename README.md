@@ -10,6 +10,6 @@ This is a web system that recording member points after they spend money.
  * Calculate ammount point to the money.
  * Check information of the record.
 ## How to use
- * Download XAMPP and put the main file into htdocs folder.
+ * Download XAMPP, install XAMPP and put the main file into htdocs folder.
  * Upload the sql file to the phpmyadmin.
  * Enjoy.
