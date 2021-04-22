@@ -11,5 +11,5 @@ Calculate ammount point to the money.
 Check information of the record.
 ## How to use
 Download XAMPP and put the main file into htdocs folder.
-upload the sql file to the phpmyadmin.
+Upload the sql file to the phpmyadmin.
 Enjoy.
