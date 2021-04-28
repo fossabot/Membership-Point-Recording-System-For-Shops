@@ -2,7 +2,7 @@
 This is a web system that recording member points after they spend money. 
 ## Functions
  * Staff Login
- * Add Mmember
+ * Add Member
  * Add Staff
  * Record ammount money of member spend.
  * Record ammount point of member spend.
